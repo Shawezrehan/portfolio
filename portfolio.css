@@ -81,6 +81,10 @@ button:hover{
 .nav-link{
   font-size: 22px;  
 }
+
+.navbar-dark .navbar-nav .nav-link{
+    color: #ffffff;
+}
 .navbar-brand{
     color: #007bff;
     font-size: 30px;
@@ -97,7 +101,7 @@ button:hover{
 #home{
     color: #FFFFFF;
     height: 400px;
-    width: 310px;
+    width: 740px;
 }
 #projects{
     background-color: #000000;
@@ -125,18 +129,18 @@ h4{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
 }
 #skills ul li{
-    background: linear-gradient(135deg, #69C9D0, #EE1D52, #69C9D0);
+    background: linear-gradient(to right, #00fff7, #ff00ee);
     color: #000000;
     font-size: 22px;
     transition:all 0.3s ease-in-out;
 }
 .navbar {
-    background: linear-gradient(135deg, #69C9D0, #EE1D52, #69C9D0);
+    background: linear-gradient(to right, #00fff7, #ff00ee);
     color: #000000;
 }
 
 #skills ul li:hover {
-    background: linear-gradient(135deg, #69C9D0, #EE1D52, #69C9D0);
+    background: linear-gradient(to right, #00fff7, #ff00ee);
     color: #ffff;
     transform: translateY(-5px);
 }
@@ -149,8 +153,28 @@ h4{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
 }
 .btn{
-    background: linear-gradient(135deg, #69C9D0, #EE1D52, #69C9D0);
+    background: linear-gradient(to right, #00fff7, #ff00ee);
     color: #FFFFFF;
     font-size: 22px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+@media only screen and (max-width:600px){
+  
+    .egg-image{ 
+    display: none;
+}
+.head{
+    font-size: 45px;
+    margin-top: 80px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.lead1{
+    font-size: 1.35rem;
+    line-height: 1.6;
+}
+#home{
+    color: #FFFFFF;
+    height: 400px;
+    width: 380px;
+} 
 }
